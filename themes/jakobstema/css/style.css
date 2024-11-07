@@ -1,0 +1,67 @@
+@import "placement.css";
+@import "header.css";
+@import "footer.css";
+@import "code-pre-blockquote.css";
+@import "typografy.css";
+@import "testfile.css";
+@import "nav.css";
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.me {
+    width: 200px;
+}
+
+/* color */
+
+body {
+    background-color: #d3d9d4;
+}
