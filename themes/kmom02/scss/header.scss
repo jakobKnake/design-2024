@@ -1,0 +1,33 @@
+/* Header */
+
+$header-nackground-color: #4a4745;
+$header-title-color: #fff;
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: $header-nackground-color;
+}
+
+.title {
+  h1 {
+    color: $header-title-color;
+  }
+
+  p {
+    color: #e8e8e8;
+  }
+
+  a {
+    text-decoration-color: #fff;
+  }
+}
+
+.logo,
+.title {
+  margin: 5px;
+}

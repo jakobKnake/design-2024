@@ -1,0 +1,7 @@
+$active-color: #ff8b6b;
+
+.nav {
+  .active a {
+    color: $active-color;
+  }
+}

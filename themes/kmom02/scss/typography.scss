@@ -1,0 +1,70 @@
+@use 'sass:map';
+
+$base-size: 18px;
+$base-line-height: 27px;
+$font-family-google: 'Lora', serif;
+$title-font: 'Caveat Brush', cursive;
+
+$font-sizes: (
+  h1: 2.222rem,
+  h2: 1.778rem,
+  h3: 1.556rem,
+  h4: 1.333rem,
+  h5: 1.111rem,
+  h6: 0.889rem
+
+);
+
+$font-sizes-mobile: (
+  h1: 1.889rem,
+  h2: 1.556rem,
+  h3: 1.333rem,
+  h4: 1.167rem,
+  h5: 1rem,
+  h6: 0.889rem
+);
+
+
+html {
+  font-size: $base-size;
+  line-height: $base-line-height;
+}
+
+h1 { font-size: map.get($font-sizes, h1); }
+h2 { font-size: map.get($font-sizes, h2); }
+h3 { font-size: map.get($font-sizes, h3); }
+h4 { font-size: map.get($font-sizes, h4); }
+h5 { font-size: map.get($font-sizes, h5); }
+h6 { font-size: map.get($font-sizes, h6); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-family: $font-family-google;
+}
+
+.title h1 { font-family: $title-font; }
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  html { line-height: 32px; }
+  h1 { font-size: map.get($font-sizes-mobile, h1); }
+  h2 { font-size: map.get($font-sizes-mobile, h2); }
+  h3 { font-size: map.get($font-sizes-mobile, h3); }
+  h4 { font-size: map.get($font-sizes-mobile, h4); }
+  h5 { font-size: map.get($font-sizes-mobile, h5); }
+  h6 { font-size: map.get($font-sizes-mobile, h6); }
+    
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 { line-height: 1.5; }
+}

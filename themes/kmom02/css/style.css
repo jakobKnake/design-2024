@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6421,6 +6422,126 @@ template {
   display: none;
 }
 
+/* Header */
+.header, .site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a, .nav-toggle {
+  color: #333;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+}
+
+html {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+h1 {
+  font-size: 2.857rem;
+}
+
+h2 {
+  font-size: 2.286rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.714rem;
+}
+
+h5 {
+  font-size: 1.429rem;
+}
+
+h6 {
+  font-size: 1.143rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+  font-family: "Lora", serif;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6454,4 +6575,31 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+body {
+  background-color: #b9b2ab;
+}
+
+@media (max-width: 767px) {
+  .title, .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
+  }
+  .logo {
+    max-width: 30%;
+  }
+}
+.logo img {
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.me {
+  width: 200px;
 }
