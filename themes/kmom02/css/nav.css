@@ -1,0 +1,12 @@
+#toggler {
+    color: #124e66;
+}
+
+.nav a {
+    color: #124e66;
+}
+
+.nav a:hover {
+    background-color: #124e66;
+    color: #d3d9d4;
+}
