@@ -2,11 +2,19 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-        <div class="main" role="main">
-            <h1>Vår egen layout från technologies.twig</h1>
-            {{ content }}
+        <div class="new-main" role="main">
+            <div class="landingpage">
+                {{ content }}
+
+                {% for tech in meta.techs %}
+                    <a href="{{ base_url }}/technology/{{ tech.class }}">
+                        <div class="box {{ tech.class }}">
+                            <h1>{{ tech.name }}</h1>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
         </div>
-    
     {% include 'incl/footer.twig' %}
 </body>
 
