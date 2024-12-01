@@ -8,24 +8,25 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
 
-@import 'header';
+@import 'dark-header';
 @import 'nav';
-@import 'footer';
+@import 'dark-footer';
 @import 'mobile-menu';
 @import 'placement';
 @import 'typography';
 @import 'blockquotes';
-@import 'code';
+@import 'dark-code';
 @import 'testfile';
 @import 'css-grid';
-@import 'technology';
-@import 'techno-content';
-@import 'tables';
+@import 'dark-analys';
+@import 'dark-techno-content';
+@import 'dark-table';
+@import 'dark-variables';
 
 body {
-  background-color: $background-color;
+  background-color: $dark-background-color;
+  color: $font-color-dark;
 }
 
 .main {
@@ -67,3 +68,4 @@ img {
 .me {
   width: 200px;
 }
+

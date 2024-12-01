@@ -6423,7 +6423,6 @@ template {
   display: none;
 }
 
-/* Header */
 .header,
 .site-header {
   display: flex;
@@ -6431,12 +6430,10 @@ template {
 }
 
 .header {
-  background-color: #4a4745;
+  background-color: #1e1e1e;
+  box-shadow: 5px 20px 50px 5px #727272;
 }
 
-.title h1 {
-  color: #fff;
-}
 .title p {
   color: #e8e8e8;
 }
@@ -6453,17 +6450,16 @@ template {
   color: #ff8b6b;
 }
 
-/* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #d9d6d2;
-  color: #292524;
+  background-color: #1e1e1e;
+  color: #cccccc;
   padding: 10px;
 }
 .footer a {
-  color: #222;
+  color: #ee6c4d;
 }
 
 .footer .social {
@@ -6632,7 +6628,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #1e1e1e;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6642,7 +6638,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #1e1e1e;
 }
 
 pre code {
@@ -6762,7 +6758,7 @@ pre code {
 }
 
 .landingpage a {
-  color: #000;
+  color: #cccccc;
 }
 
 @media (max-width: 768px) {
@@ -6795,7 +6791,7 @@ pre code {
   padding: 2rem;
 }
 .side-menu h1 {
-  color: #fff;
+  color: #cccccc;
   margin-top: 0;
   text-align: center;
 }
@@ -6807,10 +6803,13 @@ pre code {
 .article h1 {
   margin-top: 0;
 }
+.article p a {
+  color: #ff8b6b;
+}
 
 .techno-head {
   grid-area: header;
-  background: #f0f0f0;
+  background: #1e1e1e;
   text-align: center;
 }
 
@@ -6819,7 +6818,7 @@ pre code {
 }
 .item-menu a {
   text-decoration: none;
-  color: #fff;
+  color: #cccccc;
 }
 
 .item-menu.active a {
@@ -6864,24 +6863,27 @@ table {
   text-align: left;
 }
 table th {
-  background-color: #e6e0da;
-  font-weight: bold;
-  color: #333;
+  background-color: #787676;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: #cccccc;
+  padding-left: 15px;
 }
 table td {
   padding: 12px 15px;
   border: 1px solid #8a837d;
-  color: #333;
+  color: #cccccc;
 }
 table tr:nth-child(even) {
-  background-color: #d3cec7;
+  background-color: #2f2e2e;
 }
 table tr:hover {
-  background-color: #c7c2bb;
+  background-color: #646363;
 }
 
 body {
-  background-color: #c5bdb1;
+  background-color: #121212;
+  color: #cccccc;
 }
 
 .main {

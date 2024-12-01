@@ -1,0 +1,31 @@
+@import 'dark-variables';
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: $dark-header-color;
+  box-shadow: 5px 20px 50px 5px #727272;
+}
+
+.title {
+  h1 {
+    // color: $header-title-color;
+  }
+
+  p {
+    color: #e8e8e8;
+  }
+
+  a {
+    text-decoration-color: #fff;
+  }
+}
+
+.logo,
+.title {
+  margin: 5px;
+}
