@@ -1,0 +1,17 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="gallery-wrapper">
+        <header class="gallery-head"><h1>{{ meta.title }}</h1></header>
+        <div class="gallery-content">
+            {{ content }}
+        </div>
+    </div>
+    <div class="embed-container">
+        {% include 'incl/iframe.twig' %}
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

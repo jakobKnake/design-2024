@@ -23,9 +23,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'technology';
 @import 'techno-content';
 @import 'tables';
+@import 'gallery';
 
 body {
   background-color: $background-color;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .main {
@@ -33,6 +38,16 @@ body {
   padding: 0 40px;
   margin: 0 auto;
   margin-bottom: 2rem;
+}
+
+.excel-embed {
+  width: 100%;
+  max-width: 1200px;
+  height: 200px;
+  border: 2px solid #2e2e2e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -51,6 +66,14 @@ body {
 
   .main {
     padding: 0 20px;
+  }
+
+  .excel-embed {
+    width: 100%;
+    border: none;
+    transform: scale(0.9);
+    transform-origin: top left;
+    overflow: hidden;
   }
 
 
