@@ -12,20 +12,21 @@
 }
 
 .side-menu {
+  background-color: #403e3c;
   grid-area: aside;
   border: 2px solid #4a4745;
   padding: 2rem;
-  //background-color: $header-nackground-color;
+  box-shadow: rgba(0, 0, 0, 0.9) 5px 5px, rgba(0, 0, 0, 0.75) 10px 10px, rgba(0, 0, 0, 0.5) 15px 15px, rgba(0, 0, 0, 0.25) 20px 20px, rgba(0, 0, 0, 0.1) 25px 25px;
 
   h1 {
-    color: #000;
+    color: #fff;
     margin-top: 0;
     text-align: center;
   }
 
   p {
     a {
-      color: #000;
+      color: #fff;
     }
   }
 
@@ -44,6 +45,7 @@
   grid-area: header;
   background: #f0f0f0;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.9) 5px 5px, rgba(0, 0, 0, 0.75) 10px 10px, rgba(0, 0, 0, 0.5) 15px 15px, rgba(0, 0, 0, 0.25) 20px 20px, rgba(0, 0, 0, 0.1) 25px 25px;
 }
 
 .item-menu {

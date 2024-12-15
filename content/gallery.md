@@ -11,7 +11,7 @@ Template: gallery
                 srcset="%base_url%/image/rosa-palm.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/rosa-palm.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/rosa-palm.jpg" alt="">
+            <img src="%base_url%/image/rosa-palm.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -22,7 +22,7 @@ Template: gallery
                 srcset="%base_url%/image/green-huset2.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/green-huset2.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/green-huset2.jpg" alt="">
+            <img src="%base_url%/image/green-huset2.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -33,7 +33,7 @@ Template: gallery
                 srcset="%base_url%/image/red-hus.jpg?w=512&h=692&aro&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/red-hus.jpg?w=712&h=964&aro&crop-to-fit 712w">
-            <img src="%base_url%/image/red-hus.jpg" alt="">
+            <img src="%base_url%/image/red-hus.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -44,7 +44,7 @@ Template: gallery
                 srcset="%base_url%/image/vit-brun.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/vit-brun.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/vit-brun.jpg" alt="">
+            <img src="%base_url%/image/vit-brun.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -55,7 +55,7 @@ Template: gallery
                 srcset="%base_url%/image/vitt-hus.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/vitt-hus.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/vitt-hus.jpg" alt="">
+            <img src="%base_url%/image/vitt-hus.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -66,7 +66,7 @@ Template: gallery
                 srcset="%base_url%/image/vit-med-pil.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/vit-med-pil.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/vit-med-pil.jpg" alt="">
+            <img src="%base_url%/image/vit-med-pil.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -77,7 +77,7 @@ Template: gallery
                 srcset="%base_url%/image/rosa-fyrkant.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/rosa-fyrkant.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/rosa-fyrkant.jpg" alt="">
+            <img src="%base_url%/image/rosa-fyrkant.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -88,7 +88,7 @@ Template: gallery
                 srcset="%base_url%/image/blomwall.jpg?w=512&h=692&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/blomwall.jpg?w=712&h=964&crop-to-fit 712w">
-            <img src="%base_url%/image/blomwall.jpg" alt="">
+            <img src="%base_url%/image/blomwall.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>
@@ -99,7 +99,7 @@ Template: gallery
                 srcset="%base_url%/image/cool-door.jpg?w=512&h=692&aro&crop-to-fit&q=80 512w">
             <source media="(max-width: 799px)"
                 srcset="%base_url%/image/cool-door.jpg?w=712&h=964&aro&crop-to-fit 712w">
-            <img src="%base_url%/image/cool-door.jpg" alt="">
+            <img src="%base_url%/image/cool-door.jpg" alt="Hus i Colombia">
         </picture>
     </a>
 </div>

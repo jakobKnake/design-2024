@@ -34,10 +34,53 @@ body {
 }
 
 .main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+    'header header'
+    'image content-title'
+    'image content-text';
+  gap: 1rem;
+  padding: 1rem;
   max-width: 1200px;
-  padding: 0 40px;
   margin: 0 auto;
-  margin-bottom: 2rem;
+
+  .me {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    grid-area: header;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    grid-area: content-title;
+    margin: 0;
+    align-self: start;
+  }
+  
+  p {
+    width: 605px;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 15;
+    -webkit-box-orient: vertical;
+    grid-area: content-text;
+    overflow: hidden;
+  }
+
+  h2,
+  p {
+    border-left: 1px solid #2e2e2e;
+    padding-left: 1rem;
+  }
 }
 
 .excel-embed {
@@ -70,13 +113,46 @@ body {
 
   .excel-embed {
     width: 100%;
-    border: none;
+    border: 0;
     transform: scale(0.9);
     transform-origin: top left;
     overflow: hidden;
   }
 
+  .main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header'
+      'image'
+      'content-title'
+      'content-text';
+    gap: 0.5rem;
+    padding: 0.5rem;
 
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      border-left: 0;
+      padding-left: 0;
+    }
+
+    p {
+      width: 100%;
+      border-left: 0;
+      padding-left: 0;
+      -webkit-line-clamp: 10;
+    }
+
+    .me {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      display: block;
+      aspect-ratio: auto;
+    }
+  }
 }
 
 .logo img {
@@ -87,6 +163,3 @@ img {
   max-width: 100%;
 }
 
-.me {
-  width: 200px;
-}

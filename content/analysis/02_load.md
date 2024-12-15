@@ -18,11 +18,11 @@ Verktygen som användes för att genomföra denna analys var PageSpeed Insigt sa
 
 ## Resultat
 
-<iframe class="excel-embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQe0CxTwLbHM_ewsUJuy-JwMDrGEN1fS9NIsWutFLCBUSrbgVY4DkAr99oQ--wKjciCbjY9djTzR7F5/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="Laddningstider Excel data" class="excel-embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQe0CxTwLbHM_ewsUJuy-JwMDrGEN1fS9NIsWutFLCBUSrbgVY4DkAr99oQ--wKjciCbjY9djTzR7F5/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-<iframe class="excel-embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtaYzC2llkWIL5OcS3IrHN0ZqlrFFOXa24NqKXHuIPbZ-SOLL9WSq-zvKe8CPwgp_B1HLC9tvhol4l/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="Laddningstider Excel data" class="excel-embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtaYzC2llkWIL5OcS3IrHN0ZqlrFFOXa24NqKXHuIPbZ-SOLL9WSq-zvKe8CPwgp_B1HLC9tvhol4l/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-<iframe class="excel-embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQExfu0VIIO5dNzq98SK-13ozDO7ZvEh2OmCQvjywE8BhJGhYiIx5NnGL9YhgyjtX2T7HvR269Hm-5K/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="Laddningstider Excel data" class="excel-embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQExfu0VIIO5dNzq98SK-13ozDO7ZvEh2OmCQvjywE8BhJGhYiIx5NnGL9YhgyjtX2T7HvR269Hm-5K/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 Resultatet från de tre webbplatserna visar väl godkända resultatat. Resultaten av analysen visade att webbplatsen 1177 var snabbast, därefter BHT och sist kom zalando. Resultaten baserades utifrån laddningstid på vardera webbplatser.
 Webbplatserna presterade olika beroende på deras innehåll och syfte. Zalando, med sin stora mängd bilder och resurser, hade längre laddningstider jämfört med BTH och 1177, som båda har en mer minimalistisk design.
